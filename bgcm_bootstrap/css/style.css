@@ -5,3 +5,7 @@
  .sponsors img {
 	 margin: 5px;
  }
+ .navbar-brand {
+	 float: none;
+	 padding: 0px;
+ }
