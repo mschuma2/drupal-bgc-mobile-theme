@@ -4,8 +4,36 @@
  */
  .sponsors img {
 	 margin: 5px;
+	 float: left;
  }
+
+ 
  .navbar-brand {
 	 float: none;
 	 padding: 0px;
+	 margin-top: 25px;
+	 color: #005A8C;
  }
+ 
+ .logo img {
+	 height: 50px;
+ }
+ .h1 {
+	font-size: 1.7em;
+    color: #005A8C;
+ }
+ .h2 {
+	font-size: 1.3em;
+	color: #005A8C;
+ }
+ 
+ .frontpage-view-left {
+	float: left;
+	margin-right: 5px
+ }
+ 
+ .frontpage-view::after {
+    clear: both;
+    content: '';
+    display: block;
+}
