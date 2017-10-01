@@ -2,6 +2,10 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file.
  */
+ .container {
+	 width: 950px;
+ }
+ 
  .sponsors img {
 	 margin: 5px;
 	 float: left;
@@ -40,6 +44,33 @@
 }
 .col-sm-9 {
     width: 70%;
+}
+
+/* SLider */
+
+.slider_startseite_font {
+    position: absolute;
+    top: 240px;
+    left: 55px;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 400px;
+}
+.slider_startseite_body {
+    position: absolute;
+    top: 282px;
+    left: 55px;
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 400px;
+}
+.mehr_erfahren_startseite {
+    position: absolute;
+    top: 310px;
+    left: 350px;
+    font-size: 14px;
+    color: #FFFFFF !important;
+    display: block;
 }
 	
 
