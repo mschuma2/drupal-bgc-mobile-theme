@@ -8,21 +8,18 @@
  }
 
  
- .navbar-brand {
-	 float: none;
-	 padding: 0px;
-	 margin-top: 25px;
+ a.navbar-brand, a.navbar-brand:hover,  a.navbar-brand:visited {
 	 color: #005A8C;
  }
  
  .logo img {
 	 height: 50px;
  }
- .h1 {
+ h1, .h1 {
 	font-size: 1.7em;
     color: #005A8C;
  }
- .h2 {
+ h2, .h2 {
 	font-size: 1.3em;
 	color: #005A8C;
  }
@@ -37,3 +34,12 @@
     content: '';
     display: block;
 }
+
+.col-sm-3 {
+    width: 30%;
+}
+.col-sm-9 {
+    width: 70%;
+}
+	
+
