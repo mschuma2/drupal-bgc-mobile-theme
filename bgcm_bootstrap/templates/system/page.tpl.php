@@ -86,6 +86,11 @@
         <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
       <?php endif; ?>
 
+	  <!-- page navigation region moved to the top of nav tag -->
+	  <?php if (!empty($page['navigation'])): ?>
+		<?php print render($page['navigation']); ?>
+	  <?php endif; ?>
+		  
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
           <span class="sr-only"><?php print t('Toggle navigation'); ?></span>
@@ -99,10 +104,6 @@
     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
       <div class="navbar-collapse collapse" id="navbar-collapse">
         <nav role="navigation">
-		 <!-- page navigation region moved to the top of nav tag -->
-		  <?php if (!empty($page['navigation'])): ?>
-            <?php print render($page['navigation']); ?>
-          <?php endif; ?>
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
           <?php endif; ?>
