@@ -16,6 +16,13 @@
 }
 
 */
+
+@media (min-width: 768px) {
+	.col-sm-9 {
+		width: 75%;
+		max-width: 700px;
+	}
+}
  
  .sponsors img {
 	 margin: 5px;
@@ -24,13 +31,15 @@
 
  .nav > li > a {
 	 padding: 10px 10px;
+	 font-size: 1.2em;
  }
  .page-header {
-	 margin: 0px 0 10px;
+	 margin: 6px 0 0;
  }
  
  a.navbar-brand, a.navbar-brand:hover,  a.navbar-brand:visited {
 	 color: #005A8C;
+	 font-size: 2em;
  }
  .navbar-collapse {
     padding-right: 0px;
@@ -43,6 +52,7 @@
 .navbar {
 	border: 0px;
 }
+
  .logo img {
 	 height: 50px;
  }
@@ -74,29 +84,8 @@
 
 /* Slider via lightbox / View Slider plugin*/
 
-.slider_startseite_font {
-    position: absolute;
-    top: 240px;
-    left: 55px;
-    color: #FFFFFF;
-    font-size: 20px;
-    width: 400px;
-}
-.slider_startseite_body {
-    position: absolute;
-    top: 282px;
-    left: 55px;
-    color: #FFFFFF;
-    font-size: 15px;
-    width: 400px;
-}
-.mehr_erfahren_startseite {
-    position: absolute;
-    top: 310px;
-    left: 350px;
-    font-size: 14px;
-    color: #FFFFFF !important;
-    display: block;
+.carousel-caption {
+	text-align: right;
 }
 	
 
