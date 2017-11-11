@@ -2,7 +2,7 @@
 
 	<?php if (render($content['field_gallery_img'])) { print render($content['field_gallery_img']);} ?>
 	
-	<table id="tanzangebot" class="table table-condensed">
+	<table id="tanzangebot" class="well table table-condensed">
 		
 		<?php if (render($content['field_time'])): ?> 
 		<tr><th>Zeit</th><td><?php print render($content['field_time']); ?></td></tr>
