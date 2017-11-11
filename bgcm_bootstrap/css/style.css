@@ -3,7 +3,7 @@
  * remove this comment and start adding your styles to this file.
  */
  
-
+/* Inhaltsspalte begrenzen */
 @media (min-width: 768px) {
 	.col-sm-9 {
 		width: 75%;
@@ -11,24 +11,30 @@
 	}
 }
  
- 
+ /* Sponsorenbilder Abstand nebeneinander */
  .sponsors img {
 	 margin: 5px;
 	 float: left;
+ }
+ 
+  .page-header {
+	 margin: 6px 0 0;
  }
 
  /* smartphone menu will not be hidden*/
  .navbar-nav {
    margin: 7.5px 0px
 }
+
+.navbar-default .navbar-nav > li > a {
+    color: #505050;
+}
  
  .nav > li > a {
 	 padding: 10px 10px;
 	 font-size: 1.2em;
  }
- .page-header {
-	 margin: 6px 0 0;
- }
+
  
  a.navbar-brand, a.navbar-brand:hover,  a.navbar-brand:visited {
 	 color: #005A8C;
@@ -46,9 +52,13 @@
 	border: 0px;
 }
 
+/* Vereinslogo oben links */
  .logo img {
 	 height: 50px;
  }
+ 
+ /* Ueberschriften */
+ 
  h1, .h1 {
 	font-size: 1.7em;
     color: #005A8C;
@@ -58,9 +68,10 @@
 	color: #005A8C;
  }
  
+ /* Bilder in Artikeln auf der Website Frontpage */
  .frontpage-view-left {
 	float: left;
-	margin-right: 5px
+	margin-right: 10px
  }
  
  .frontpage-view::after {
@@ -75,8 +86,11 @@
 	padding: 10px;
 }
 
-/* Slider via lightbox / View Slider plugin*/
+/* Slider plugin*/
 
+.carousel {
+	margin-bottom: 10px
+}
 .carousel-caption {
 	text-align: right;
 }
