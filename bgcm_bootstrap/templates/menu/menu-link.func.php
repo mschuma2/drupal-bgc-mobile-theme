@@ -23,7 +23,7 @@ function YourBootstrapSubthemeName_menu_link(array $variables) {
       unset($element['#below']['#theme_wrappers']);
       $sub_menu = '<ul class="dropdown-menu">' . drupal_render($element['#below']) . '</ul>';
       // Generate as standard dropdown.
-      //$element['#title'] .= ' <span class="caret"></span>'; Smartmenus plugin add's caret
+      $element['#title'] .= ' <span class="caret"></span>'; Smartmenus plugin add's caret
       $element['#attributes']['class'][] = 'dropdown';
       $element['#localized_options']['html'] = TRUE;
  
@@ -32,7 +32,7 @@ function YourBootstrapSubthemeName_menu_link(array $variables) {
       $element['#localized_options']['attributes']['data-target'] = '#';
       $element['#localized_options']['attributes']['class'][] = 'dropdown-toggle';
       //comment element bellow if you want your parent menu links to be "clickable"
-      //$element['#localized_options']['attributes']['data-toggle'] = 'dropdown';
+      $element['#localized_options']['attributes']['data-toggle'] = 'dropdown';
     }
   }
   // On primary navigation menu, class 'active' is not set on active menu item.
