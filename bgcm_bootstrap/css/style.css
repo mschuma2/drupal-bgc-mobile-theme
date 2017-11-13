@@ -23,9 +23,17 @@
 
  /* smartphone menu will not be hidden*/
  .navbar-nav {
-   margin: 7.5px 0px
+   margin: 7.5px 7.5px
 }
 
+/* align navbar to the left */
+header#navbar {
+    padding: 0px;
+}
+/* max width of navigation (like slider size)*/
+#navbar>.container {
+    max-width: 950px;
+}
 .navbar-default .navbar-nav > li > a {
     color: #505050;
 }
