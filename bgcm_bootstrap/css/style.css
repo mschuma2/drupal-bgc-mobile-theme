@@ -3,6 +3,18 @@
  * remove this comment and start adding your styles to this file.
  */
  
+  /* Vereinslogo oben links */
+ .logo img {
+	 height: 50px;
+ }
+ 
+ /* page title */
+ a.navbar-brand, a.navbar-brand:hover,  a.navbar-brand:visited {
+	 color: #005A8C;
+	 font-size: 2em;
+	 line-height: 1em;
+ }
+ 
 /* Inhaltsspalte begrenzen */
 @media (min-width: 768px) {
 	.col-sm-9 {
@@ -17,9 +29,13 @@
 	 float: left;
  }
  
-  .page-header {
-	 margin: 6px 0 0;
- }
+.page-header {
+	margin: 6px 0 0;
+}
+
+ .navbar {
+	border: 0px;
+}
 
  /* smartphone menu will not be hidden*/
  .navbar-nav {
@@ -34,6 +50,7 @@ header#navbar {
 #navbar>.container {
     max-width: 950px;
 }
+/* primary menu links*/
 .navbar-default .navbar-nav > li > a {
     color: #505050;
 }
@@ -43,12 +60,7 @@ header#navbar {
 	 font-size: 1.2em;
  }
 
- 
- a.navbar-brand, a.navbar-brand:hover,  a.navbar-brand:visited {
-	 color: #005A8C;
-	 font-size: 2em;
-	 line-height: 1em;
- }
+
  .navbar-collapse {
     padding-right: 0px;
     padding-left: 0px;
@@ -57,14 +69,9 @@ header#navbar {
     background-color: inherit;
     border-color: inherit;
 }
-.navbar {
-	border: 0px;
-}
 
-/* Vereinslogo oben links */
- .logo img {
-	 height: 50px;
- }
+
+
  
  /* Ueberschriften */
  
